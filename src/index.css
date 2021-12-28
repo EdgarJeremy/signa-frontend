@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.sign-btn {
+  /* font-size: 10px !important; */
+  border-radius: 5px;
+}
+.side-nav {
+  margin-top: 40px;
+  background-color: #2980b9;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.side-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.side-nav ul li {
+  margin-bottom: 10px;
+}
+.side-nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 150px;
+  color: #fff;
+}
+.side-nav ul li.current a {
+  background-color: #206695;
+}
+.side-nav ul li svg {
+  margin-right: 10px;
+}
+.profile {
+  text-align: center;
+}
+.profile .avatar {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border: 6px solid rgba(223, 230, 233,1.0)
+}
+.profile h4 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.verified {
+  width: 30px;
+  height: 30px;
+}
+.contain {
+  padding: 40px;
+}
+.page-content {
+  margin-top: 40px;
+  padding-right: 40px;
+}
+.profile .stats {
+  margin-top: 20px;
+  /* font-weight: bold; */
+}
