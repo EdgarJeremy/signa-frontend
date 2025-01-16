@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16"
+    "node": "14"
   },
   "dependencies": {
     "@feathersjs/authentication-client": "^4.5.11",
