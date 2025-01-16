@@ -2,6 +2,9 @@
   "name": "sign-id-frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16"
+  }
   "dependencies": {
     "@feathersjs/authentication-client": "^4.5.11",
     "@feathersjs/feathers": "^4.5.11",
