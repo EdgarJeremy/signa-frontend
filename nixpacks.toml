@@ -1,10 +1,10 @@
 providers = ['...', 'python']
 
-[phases.setup]
-nixPkgs = ['nodejs_16', 'yarn-1_x']
+# [phases.setup]
+# nixPkgs = ['nodejs_16', 'yarn-1_x']
 
-[phases.build]
-cmds = ['yarn run build']
+# [phases.build]
+# cmds = ['yarn run build']
 
-[start]
-cmd = 'yarn run start'
+# [start]
+# cmd = 'yarn run start'
